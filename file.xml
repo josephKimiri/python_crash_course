@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root[
+<!ENTITY file SYSTEM "file:///etc/passwd">
+]>
+<root>
+<name>test</name>
+<tel>082</tel>
+<email>&file;</email>
+<password>pwd</password>
+</root>
